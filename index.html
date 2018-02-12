@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+  
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/styles.css">   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+
+    <title>Shopcade</title>
+  </head>
+  <body>
+    <div class="main-containter">
+     <header>
+        <img class="logo" src="image/shopcade-logo.png" alt="logo"> <!-- make it text refector -->
+        
+        <section class=links>
+            <a class="flag" href="#"><img src="image/b-flag.png" alt="british flag image"/></a>
+          <a href="#">Login</a> | <a href="#">Register</a>
+        </section> 
+        <nav>
+          <ul>
+            <li><a href="#">TRADING</a></li>
+            <li><a href="#">CELEBS</a></li>
+            <li><a href="">FASHION</a></li>
+            <li class="search-pos">
+              <input class="nav-search" type="text" placeholder="search" />
+            </li>
+          </ul>
+        </nav>
+     </header>
+     <article> <!--refactor/rethink -->
+          <section class="image-galary-side">
+              <section class="bread-crumb">
+                  <ul class="breadcrumb">
+                      <li><a href="#">FASHION</a></li>
+                      <li><a href="#">WOMEN</a></li>
+                      <li><a href="#">DRESS</a></li>
+                      <li class="current">ANTHEA CUT OUT DRESS</li>
+                    </ul> 
+
+              </section>
+              <section class="image-gallary">
+                  <div id='gallery' class='gallery'>
+                      <div id='lg-wrap' class='current-image-wrapper'>
+                        <img id='large' data-idx='0' src='image/dress3.png' alt="main image">
+                      </div>
+                      <ul id='thumbnails' class='thumbnails'>
+                        <li>
+                          <a href='image/dress3.png'>
+                            <img data-idx='0' src='image/dress3.png' alt="thumbnails">
+                          </a>
+                        </li>
+                        <li>
+                          <a href='image/dress4.png'>
+                            <img data-idx='1' src='image/dress4.png' alt="thumbnails">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+              </section>
+              <section class="social-media">
+                <!-- Add font awesome icons -->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </section>
+          </section>
+          <section class="product-details">
+            <div class="product-content">
+              <header>
+                  <h1>ANTHEA CUT OUT DRESS</h1> 
+                  <h4>by Missguided</h4>
+              </header>
+                
+              <section class=price-star>
+                <div class="price">
+                  <h3 style="margin:0px;">£ 36.00</h3>
+                </div>
+                <div class="star">
+                    <div class="rating">
+                      <span>☆</span>
+                      <span>☆</span>
+                      <span>☆</span>
+                      <span>☆</span>
+                      <span>☆</span>
+                    </div>
+                </div>
+              </section>
+              
+              <hr/> 
+              
+              <section class="color">
+                  <h5 class="title-attr">COLORS</h5>                    
+                  <div class="colors-details"></div>
+              </section>
+
+              <section class="color">
+                  <h5 class="title-attr">SIZE</h5>
+
+                  <div class="size-group">
+                      <div class="size-details disabled">4</div>
+                      <div class="size-details">6</div>
+                      <div class="size-details">8</div>
+                      <div class="size-details">12</div>
+                      <div class="size-details disabled">14</div>
+                  </div>
+
+                  <div class="size-guide">View size guide</div>                    
+                  
+              </section>
+
+              <section class="buttons">
+                  <button class="cart-btn" type="submit" style="margin:0; border: 0; background: transparent">
+                      <img src="/image/add-to-cart.png" alt="Add to cart button" />
+                  </button>
+                  <button class="like-btn" type="submit" style="border: 0; background: transparent">
+                      <img src="/image/like-it-btn.png" alt="Like it button" />
+                  </button>
+
+              </section>
+
+              <section class="accordian-main">
+                  <button class="accordion">Description</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  
+                  <button class="accordion">Delivery & Return</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  
+                  <button class="accordion">Activity</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div> 
+                </section>
+                                    
+              </div>
+          </section>
+             
+     </article>
+     
+     <footer></footer> 
+    </div>
+    <script src="/javascript/action.js"></script>
+
+  </body>
+</html>
