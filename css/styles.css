@@ -1,0 +1,368 @@
+/* logo */
+.logo {
+    margin-left:31px; /*refector */
+  }
+
+  /* Links */
+  .links  {
+      float: right;
+      position: relative;
+      top: 20px;
+    }
+
+    .flag {
+        position: relative;
+        top:2px;
+        left:-20px;
+    }
+
+  .links > a {
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  /*Nav Bar*/
+  nav {
+    background-color: #333;
+  }
+
+  nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* width: 50%; */
+    }
+    
+    nav > ul > li {
+        float: left;
+    }
+    
+    nav > ul > li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 53px;
+        text-decoration: none;
+    }
+    
+    
+    nav > ul > li a:hover {
+        background-color: #111;
+    }
+
+    nav li + li:before {
+        content: " | ";
+        color: white;
+        float:left;
+        position:relative;
+        top: 10px;
+    }
+
+    nav > ul li:last-child::before {
+        
+        content: " ";
+        clear: both;
+    }
+    .search-pos {
+      float:right;
+    }
+    .nav-search {
+      margin-top:10px;
+      margin-right: 10px;
+      background-color: #333;
+      border-color: white;
+      color:white;
+      border: 10px;
+    }
+    /* .glyphicon-color {
+      color:white;
+    } */
+
+    /* Main Container */
+    .main-containter {
+      width : 1200px;
+    }
+
+    article {
+      width: 90%;
+      margin: 0px auto;
+
+    }
+
+    /* Image Gallery */
+
+    .image-galary-side {
+      width: 50%;
+      float: left;
+      /* padding:20px; */
+
+    }
+
+    /* Bread crumb */
+
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+    }
+    
+    /* Displaying list items side by side */
+    .bread-crumb > ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+    }
+    
+    /* Adding a slash symbol (/) before/behind each list item */
+    .bread-crumb > ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+   
+    .bread-crumb > ul.breadcrumb li {
+        font-size: 12px;
+    }
+    /* Removing anchor decoration list */
+    .bread-crumb > ul.breadcrumb li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* Add a color on mouse-over */
+    .bread-crumb > ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: none;
+        
+    }
+
+    .current {
+        font-weight: bold;
+    }
+
+    /* Product Details */
+    .product-details {
+    /* background-color:green;  */
+      width: 50%;
+      float: right;
+    }
+
+    .product-content {
+        padding: 20px;
+    }
+
+    h1, h4 {
+        text-align: center;
+    }
+
+   
+    /* Rating starts custom style */
+
+    .stars {
+        width: 50%;
+        float: left;
+    }
+
+    .price {
+        width: 50%; 
+        float: left;
+        margin: 0px;
+    }
+
+    .price > h3 {
+        font-size: 23px;
+        font-weight: 900;
+    }
+
+    .product-content > header > h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .product-content > header > h4{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    /* Accordian */
+
+    
+    .accordion {
+        background-color: white;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        border-top-style: solid;
+        border-color: rgb(197, 197, 197);
+        border-width: thin;
+        
+    }
+
+    
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    } 
+
+    .accordion:after {
+        content: '\02795'; 
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2796"; 
+    }
+
+    /* Color Section */
+    .colors-details {
+        cursor:pointer;
+        margin-right:5px;
+        height:20px;
+        /* font-size:10px; */
+        padding:2px;
+        border:1px solid rgb(255, 255, 255);
+        border-radius:2px;
+        width:25px;
+        background:#5a5a5a;
+    }
+    
+    .color > h5 {
+        margin-bottom: 1px;
+    }
+
+    .size-details {
+        margin-right:5px;
+        height:20px;
+        width:25px;
+        padding:2px;
+        border:1px solid rgb(0, 0, 0);
+        border-radius:2px;
+        float: left;
+
+    }
+
+    .size-guide {
+        clear: both;
+        font-size:10px;
+    }
+
+
+    /* Buttons */
+    .button-group{
+        position:relative; 
+        left:-30px;
+    }
+    button {
+        margin: 0;
+        padding:0;
+        cursor: pointer;
+    }
+    .cart-btn {
+        margin-left: 1px;
+    }
+    /* .buttons > button > img{
+        margin-left:0px;
+    } */
+
+    .buttons {
+        margin: 50px 0px 45px 0px;
+    }
+
+    .disabled {
+        opacity: 0.4;
+        
+    }
+
+    /* Star rating */
+
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+      }
+      .rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+        font-size: 20px;
+      }
+      .rating > span:hover:before,
+      .rating > span:hover ~ span:before {
+         content: "\2605";
+         position: absolute;
+         color: yellow;
+      }
+
+      
+      /* Image gallary */
+
+    .gallery { 
+        text-align: center; 
+    }
+    
+    .current-image-wrapper {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    
+    .current-image-wrapper img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        opacity: 1;
+        transition: opacity 1.85s;
+    }
+    
+    .current-image-wrapper .hideme {
+        opacity: 0;
+        transition: opacity 0s;
+    }
+    
+    .thumbnails li, .thumbnails a, .thumbnails img {
+        display: inline-block;
+        width: 4.5em;
+        height: 5em;
+        border: none;
+    }
+
+    .thumbnails a { 
+        outline: none; 
+    }
+
+    /* Social media */
+
+    .social-media {
+        text-align: center; 
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 3px 1px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook, 
+      .fa-twitter,
+      .fa-pinterest,
+      .fa-google
+       {
+       
+        color: rgb(75, 73, 73);
+      }
+      
+      
